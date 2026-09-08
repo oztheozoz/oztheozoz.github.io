@@ -1,0 +1,21 @@
+{
+  "name": "osbert.net",
+  "homepage": "https://github.com/oztheozoz/osbert.net",
+  "authors": [
+    "Osbert Orr <oztheozoz@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "animate.css": "^3.5.2",
+    "wow": "wowjs#^1.1.2"
+  }
+}

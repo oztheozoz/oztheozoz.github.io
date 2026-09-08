@@ -1,0 +1,223 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+#main-page a {
+  text-decoration: none;
+}
+
+
+/* unvisited and visited link */
+
+a:link,
+a:visited {
+  color: #17A3D3;
+}
+
+
+/* mouse over link */
+
+a:hover {
+  color: #31A8CF;
+}
+
+
+/* selected link */
+
+a:active {
+  color: #337ab7;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-size: 1rem;
+  font-family: 'Open Sans', sans-serif;
+}
+
+hr {
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.glyphicon {
+  color: #8A8A8A;
+}
+
+.no-bullets {
+  list-style-type: none;
+}
+
+.skill-title {
+  display: inline-block;
+  width: 60%;
+}
+
+.skill-rating {
+  float: right;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  display: list-item;
+  padding: 6px 0;
+}
+
+#contact li img {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.filled {
+  color: #36B8CF;
+}
+
+.container {
+  max-width: 1280px;
+}
+
+.jumbotron {
+  background: #000000 url('../img/polygon_background.jpg') no-repeat center;
+  background-size: cover;
+  padding: 50px 0 0 0;
+  margin-bottom: 0;
+}
+
+.jumbotron p {
+  font-size: 1rem;
+}
+
+#command-line-container {
+  margin: 65px auto;
+}
+
+#command-line {
+  position: relative;
+  height: 68px;
+  font-size: 1.5625rem;
+  color: white;
+  border-radius: 6px;
+  background-color: rgba(105, 105, 105, .78);
+}
+
+#command-line>p {
+  position: absolute;
+  margin-left: 12px;
+  margin-top: 21px;
+}
+
+#about-container {
+  background-color: rgba(37, 88, 134, .80);
+}
+
+#skillset-container {
+  background-color: #303957;
+}
+
+#contact-container {
+  background-color: #424242;
+}
+
+.content-padding {
+  padding: 50px 0;
+}
+
+h1 {
+  padding-bottom: 12px;
+  margin: 0;
+}
+
+h1.header-title {
+  display: inline-block;
+  color: white;
+  font-size: 2.1875rem;
+  padding: 0;
+  margin: 0 0 0 12px;
+  vertical-align: middle;
+}
+
+h1.article-title-light {
+  color: white;
+  font-size: 2.5rem;
+}
+
+h1.article-title-dark {
+  color: #2D6590;
+  font-size: 2.5rem;
+}
+
+h2.article-title {
+  color: #31A8CF;
+  font-size: 1.875rem;
+}
+
+.text-light {
+  color: white;
+}
+
+.text-dark {
+  color: #2D6590;
+  font-size: 25px;
+}
+
+#oz-logo {
+  display: inline-block;
+  width: 57px;
+}
+
+.logo {
+  margin-top: 20px;
+  width: 100px;
+}
+
+.social-logo {
+  width: 44px;
+}
+
+#itunes-logo {
+  width: 110px;
+}
+
+.section-spacing {
+  margin-bottom: 50px;
+}
+
+.container-spacing {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#itunes-logo-row {
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 544px) {
+  html {
+    font-size: 90%;
+  }
+  #command-line-container {
+    margin: 40px auto;
+  }
+  #command-line {
+    height: 55px;
+  }
+  #command-line>p {
+    margin-top: 18px;
+  }
+  .content-padding {
+    padding: 25px 0;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    padding-left: 180px;
+    padding-right: 180px;
+  }
+}
